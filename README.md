@@ -1,0 +1,2 @@
+# cloud-encrypted
+Microsoft Azure
