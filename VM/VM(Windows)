@@ -1,6 +1,6 @@
 #!/bin/bash
-#This script he would edit with  what name if you want
-#this vault is default
+#This script he can could be edit with what name are you want
+#this vault will be default
 #WINDOWS IMAGE
 #Author : Dan Mititi
 az creat --resource-group default --name myVM --image win2012datacenter--admin-username azureadmin --admin-password adminazure
