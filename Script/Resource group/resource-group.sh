@@ -3,7 +3,7 @@
 #Author: Dan Mititi 
 #prototype
 az group create --name default --location euwest
-if ($? -ne 0); then
+if [ $? -ne 0 ]; then
  echo "cannot been create"
  exit 1
 else 
