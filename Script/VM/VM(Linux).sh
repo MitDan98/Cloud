@@ -4,7 +4,7 @@
 #LINUX IMAGE
 #Author : Dan Mititi
 az creat --resource-group default --name myVM --image UbuntuLTS --admin-username azureadmin -- admin-password adminazure ----generate-ssh-keys
-if ($? -ne 0); then
+if [$? -ne 0]; then
  echo "Cannot been created VM!
  exit 1
 
@@ -15,7 +15,7 @@ else
  fi
 az vm open-port --port 80 --resource-group default --name myVM
 
-if ($? -ne 0); then
+if [$? -ne 0]; then
  echo"error"
  exit 1
 
