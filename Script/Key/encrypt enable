@@ -1,10 +1,10 @@
 #!/bin/bash
 #enable key
 #edit
-az vm encryption enable -g default --name "myVM" --disk-encryption-keyvault "AA-encrypt" --key-encryption-key "myKEK"
-if[$? -ne 0]; then
+az vm encryption enable -g default --name "myVM" --disk-encryption-keyvault "myVm" --key-encryption-key "myKEK"
+if [$? -ne 0]; then
  echo "Cannot been encrypt ..."
  exit 1
- else
+else
  echo "succes"
 fi
