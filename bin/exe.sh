@@ -1,12 +1,12 @@
 #!/bin/bash
 #exe
 #start-encrypt
-sudo chmod 111 cloud-encrypted/script/VM/VM(Linux).sh
+sudo chmod 111 cloud-encrypted/script/VM/VMLinux.sh
 if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
 fi
-sudo chmod 111 cloud-encrypted/script/VM/VM(Windows).sh
+sudo chmod 111 cloud-encrypted/script/VM/VMWindows.sh
 if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
