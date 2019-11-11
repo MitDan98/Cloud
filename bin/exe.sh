@@ -5,7 +5,7 @@ sudo cd ..
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd Script/VM/
+sudo cd /Script/VM/
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
@@ -23,7 +23,7 @@ sudo cd ..
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd Resource group/
+sudo cd /Resource group/
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
@@ -36,7 +36,7 @@ sudo cd ..
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd Key/
+sudo cd /Key/
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
