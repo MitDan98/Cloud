@@ -4,22 +4,21 @@
 #WINDOWS IMAGE
 #Author : Dan Mititi
 az creat --resource-group default --name myVM --image win2012datacenter--admin-username azureadmin --admin-password adminazure
-if ($? -ne 0); then
+if [$? -ne 0]; then
  echo "VM was created!"
  exit 1
 
-elif 
+else
  echo"ERROR!"
- exit 1
+ 
  
  fi
 az vm open-port --port 80 --resource-group default --name myVM
 
-if ($? -ne 0); then
+if [$? -ne 0]; then
  echo"Port was open, enjoy"
  exit 1
 
-elif 
+else
  echo"Port cannnot been open"
- exit 1
- fi 
+fi 
