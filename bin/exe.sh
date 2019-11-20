@@ -5,7 +5,7 @@ sudo cd ..
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd /Script/VM/
+sudo cd Cloud/Script/VM/
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
@@ -19,11 +19,11 @@ if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
 fi
-sudo cd ..
+sudo cd ~
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd /Resource group/
+sudo cd Cloud/Scripts/Resource group/
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
@@ -32,11 +32,11 @@ if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
 fi
-sudo cd ..
+sudo cd ~
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
-sudo cd /Key/
+sudo cd Cloud/Scrips/key
 if [ $? -ne 0]; then
  echo "You shell no pass"
 fi
@@ -49,3 +49,15 @@ if [ $? -ne 0 ] ; then
   echo " Cannot change mod ..."
   exit 1
  fi
+else
+ echo "All work with succes"
+
+Sudo cd ~
+if [ #? -ne 0]; then
+ echo "not working..."
+
+Else
+ echo "ok"
+
+Sudo .
+
