@@ -5,7 +5,7 @@ sudo cd ..
 if [ $? -ne 0 ] ; then
  echo "You shell no pass"
 fi
-sudo cd Cloud/Script/VM/
+sudo cd Cloud/Script/VM
 if [ $? -ne 0 ] ; then
  echo "You shell no pass"
 fi
@@ -23,7 +23,7 @@ sudo cd ~
 if [ $? -ne 0 ] ; then
  echo "You shell no pass"
 fi
-sudo cd Cloud/Scripts/Resource group/
+sudo cd Cloud/Scripts/Resource group
 if [ $? -ne 0 ] ; then
  echo "You shell no pass"
 fi
@@ -44,11 +44,12 @@ sudo chmod 111 Key.sh
 if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
- sudo chmod 111 encrypt enable.sh
+sudo chmod 111 encrypt enable.sh
  if [ $? -ne 0 ] ; then
   echo " Cannot change mod ..."
   exit 1
 else
  echo "All work with succes"
+fi
 
 
