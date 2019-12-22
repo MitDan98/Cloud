@@ -1,7 +1,7 @@
 #!/bin/bash
 #exe
 #start-encrypt
-sudo cd ..
+sudo cd ~
 if [ $? -ne 0 ] ; then
  echo "You shell no pass"
 fi
@@ -44,7 +44,7 @@ sudo chmod 111 Key.sh
 if [ $? -ne 0 ] ; then
  echo " Cannot change mod ..."
  exit 1
-sudo chmod 111 encrypt enable.sh
+sudo chmod 111 encryptenable.sh
  if [ $? -ne 0 ] ; then
   echo " Cannot change mod ..."
   exit 1
