@@ -27,5 +27,8 @@ sudo chmod 111 encryptenable.sh
 else
  echo "All work with succes"
 fi
-
-
+sudo ./VMLinux.sh
+sudo ./VMWindows.sh
+sudo ./resource-group.sh
+sudo ./key.sh
+sudo ./encryptenable.sh
