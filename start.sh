@@ -32,3 +32,4 @@ sudo ./VMWindows.sh
 sudo ./resource-group.sh
 sudo ./key.sh
 sudo ./encryptenable.sh
+exti 1
